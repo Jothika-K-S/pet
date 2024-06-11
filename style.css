@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+* {
+  font-family: "Kufam", sans-serif;
+}
+
+.header_section {
+  max-width: 1239px;
+  max-height: 65px;
+  display: flex;
+  align-items: center;
+  margin: 35px 127px 0 127px;
+}
+
+[alt=font-logo] {
+  margin-left: 22.41px;
+  margin-right: 357.1px;
+}
+
+.header_nav {
+  gap: 100px;
+  display: flex;
+  max-width: 732px;
+  max-height: 36px;
+  align-items: center;
+  padding: 2px 0;
+}
+
+a,
+.nav-tag {
+  text-decoration: none;
+  color: black;
+  font-family: "Itim", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  max-height: 36px;
+}
+
+.home-nav {
+  max-width: 76px;
+  max-height: 36px;
+}
+
+.product-nav {
+  max-width: 104px;
+}
+
+.side_content {
+  margin-right: 1px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.content {
+  max-width: 1239px;
+  max-height: 590px;
+  margin: 27px 97px 29px;
+  display: flex;
+}
+
+.main_content {
+  margin-bottom: 62px;
+  margin-top: 133px;
+  margin-right: 97px;
+}
+
+.head_content {
+  width: 571px;
+  height: 141px;
+  font-size: 54.694px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.para_content {
+  width: 501px;
+  height: 33px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 56px;
+  margin-bottom: 0;
+}
+
+.button_lets-explore {
+  display: flex;
+  width: 305px;
+  height: 75px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 90px;
+  margin-bottom: 62px;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #fe7b3e;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img_content {
+  width: 568px;
+  height: 568px;
+}
